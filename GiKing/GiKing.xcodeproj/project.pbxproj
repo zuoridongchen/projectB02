@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C365B9CA7D9A1F164B17875A /* libPods-GiKing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F2AA1E7338691047C03374 /* libPods-GiKing.a */; };
+		E64697A51D0EB4DB0084FE77 /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = E64697A41D0EB4DB0084FE77 /* sun.png */; };
+		E64697A71D0EB5DC0084FE77 /* id-card.png in Resources */ = {isa = PBXBuildFile; fileRef = E64697A61D0EB5DC0084FE77 /* id-card.png */; };
+		E64697A91D0EB6A60084FE77 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E64697A81D0EB6A60084FE77 /* 1.png */; };
+		E64697AD1D0EB74A0084FE77 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = E64697AC1D0EB74A0084FE77 /* 4.png */; };
+		E64697AF1D0EB7A00084FE77 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E64697AE1D0EB79F0084FE77 /* 2.png */; };
+		E64697B11D0EB80E0084FE77 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = E64697B01D0EB80E0084FE77 /* 3.png */; };
+		E64697B31D0F8F2F0084FE77 /* moon.png in Resources */ = {isa = PBXBuildFile; fileRef = E64697B21D0F8F2F0084FE77 /* moon.png */; };
+		E64697B51D0F92870084FE77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E64697B41D0F92870084FE77 /* Assets.xcassets */; };
 		E666838C1D0E46830075428C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E666838B1D0E46830075428C /* main.m */; };
 		E666839A1D0E46830075428C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E66683981D0E46830075428C /* LaunchScreen.storyboard */; };
 		E66683D51D0E65F80075428C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E66683BE1D0E65F80075428C /* AppDelegate.m */; };
@@ -15,10 +24,20 @@
 		E66683DE1D0E67030075428C /* ForumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E66683DD1D0E67030075428C /* ForumViewController.m */; };
 		E66683E11D0E67180075428C /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E66683E01D0E67180075428C /* NewsViewController.m */; };
 		E66683E41D0E67310075428C /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E66683E31D0E67310075428C /* SettingsViewController.m */; };
-		E66683E61D0E69BD0075428C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E66683E51D0E69BD0075428C /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		820A9E2AF4D8BADD575ECE32 /* Pods-GiKing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiKing.release.xcconfig"; path = "Pods/Target Support Files/Pods-GiKing/Pods-GiKing.release.xcconfig"; sourceTree = "<group>"; };
+		9E0362C409E263E262A03E8A /* Pods-GiKing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiKing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GiKing/Pods-GiKing.debug.xcconfig"; sourceTree = "<group>"; };
+		C2F2AA1E7338691047C03374 /* libPods-GiKing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GiKing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E64697A41D0EB4DB0084FE77 /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
+		E64697A61D0EB5DC0084FE77 /* id-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "id-card.png"; path = "../id-card.png"; sourceTree = "<group>"; };
+		E64697A81D0EB6A60084FE77 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		E64697AC1D0EB74A0084FE77 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		E64697AE1D0EB79F0084FE77 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		E64697B01D0EB80E0084FE77 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		E64697B21D0F8F2F0084FE77 /* moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moon.png; sourceTree = "<group>"; };
+		E64697B41D0F92870084FE77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E66683871D0E46830075428C /* GiKing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiKing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E666838B1D0E46830075428C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E66683991D0E46830075428C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,7 +54,6 @@
 		E66683E01D0E67180075428C /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
 		E66683E21D0E67310075428C /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		E66683E31D0E67310075428C /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
-		E66683E51D0E69BD0075428C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,17 +61,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C365B9CA7D9A1F164B17875A /* libPods-GiKing.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2257F7762595388FDC244D03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2F2AA1E7338691047C03374 /* libPods-GiKing.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E64697A31D0EB4C40084FE77 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				E64697A61D0EB5DC0084FE77 /* id-card.png */,
+				E64697A41D0EB4DB0084FE77 /* sun.png */,
+				E64697B21D0F8F2F0084FE77 /* moon.png */,
+				E64697A81D0EB6A60084FE77 /* 1.png */,
+				E64697AE1D0EB79F0084FE77 /* 2.png */,
+				E64697B01D0EB80E0084FE77 /* 3.png */,
+				E64697AC1D0EB74A0084FE77 /* 4.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		E666837E1D0E46830075428C = {
 			isa = PBXGroup;
 			children = (
 				E66683891D0E46830075428C /* GiKing */,
 				E66683881D0E46830075428C /* Products */,
+				F2725C3FF2F45C6CEB202C5D /* Pods */,
+				2257F7762595388FDC244D03 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,7 +113,6 @@
 			children = (
 				E66683BB1D0E65F80075428C /* Classes */,
 				E66683981D0E46830075428C /* LaunchScreen.storyboard */,
-				E66683E51D0E69BD0075428C /* Assets.xcassets */,
 				E666839B1D0E46830075428C /* Info.plist */,
 				E666838A1D0E46830075428C /* Supporting Files */,
 			);
@@ -152,6 +194,7 @@
 				E66683C91D0E65F80075428C /* Forum */,
 				E66683CD1D0E65F80075428C /* News */,
 				E66683D11D0E65F80075428C /* Settings */,
+				E64697B41D0F92870084FE77 /* Assets.xcassets */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -258,6 +301,7 @@
 		E66683D11D0E65F80075428C /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				E64697A31D0EB4C40084FE77 /* Image */,
 				E66683D21D0E65F80075428C /* Models */,
 				E66683D31D0E65F80075428C /* ViewControllers */,
 				E66683D41D0E65F80075428C /* Views */,
@@ -288,6 +332,15 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		F2725C3FF2F45C6CEB202C5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E0362C409E263E262A03E8A /* Pods-GiKing.debug.xcconfig */,
+				820A9E2AF4D8BADD575ECE32 /* Pods-GiKing.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -295,9 +348,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E666839E1D0E46830075428C /* Build configuration list for PBXNativeTarget "GiKing" */;
 			buildPhases = (
+				EBB4C0C241E2F34278B12015 /* Check Pods Manifest.lock */,
 				E66683831D0E46830075428C /* Sources */,
 				E66683841D0E46830075428C /* Frameworks */,
 				E66683851D0E46830075428C /* Resources */,
+				F1EB23377EA76CF93EA625AA /* Embed Pods Frameworks */,
+				C6A18FB2C77ADB72CA8DCA46 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -346,12 +402,67 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E66683E61D0E69BD0075428C /* Assets.xcassets in Resources */,
+				E64697A51D0EB4DB0084FE77 /* sun.png in Resources */,
+				E64697B11D0EB80E0084FE77 /* 3.png in Resources */,
+				E64697B31D0F8F2F0084FE77 /* moon.png in Resources */,
+				E64697A91D0EB6A60084FE77 /* 1.png in Resources */,
+				E64697AD1D0EB74A0084FE77 /* 4.png in Resources */,
+				E64697A71D0EB5DC0084FE77 /* id-card.png in Resources */,
 				E666839A1D0E46830075428C /* LaunchScreen.storyboard in Resources */,
+				E64697B51D0F92870084FE77 /* Assets.xcassets in Resources */,
+				E64697AF1D0EB7A00084FE77 /* 2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C6A18FB2C77ADB72CA8DCA46 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GiKing/Pods-GiKing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBB4C0C241E2F34278B12015 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F1EB23377EA76CF93EA625AA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GiKing/Pods-GiKing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E66683831D0E46830075428C /* Sources */ = {
@@ -466,6 +577,7 @@
 		};
 		E666839F1D0E46830075428C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E0362C409E263E262A03E8A /* Pods-GiKing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GiKing/Info.plist;
@@ -477,6 +589,7 @@
 		};
 		E66683A01D0E46830075428C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 820A9E2AF4D8BADD575ECE32 /* Pods-GiKing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GiKing/Info.plist;

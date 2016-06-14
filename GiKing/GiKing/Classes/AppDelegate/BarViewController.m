@@ -32,10 +32,12 @@
     [item setTitleTextAttributes:attrs forState:(UIControlStateNormal)];
     [item setTitleTextAttributes:selectedAttrs forState:(UIControlStateHighlighted)];
     
-    [self setupChildVc:[[NewsViewController alloc]init] title:@"新闻" image:@"tabBar_essence_icon" selectImage:@"tabBar_essence_click_icon"];
-    [self setupChildVc:[[ForumViewController alloc] init] title:@"论坛" image:@"tabBar_essence_icon" selectImage:@"tabBar_essence_click_icon"];
-    [self setupChildVc:[[CaseViewController alloc] init] title:@"经典" image:@"tabBar_essence_icon" selectImage:@"tabBar_essence_click_icon"];
-    [self setupChildVc:[[SettingsViewController alloc]init] title:@"设置" image:@"tabBar_essence_icon" selectImage:@"tabBar_essence_click_icon"];
+   
+    
+    [self setupChildVc:[[NewsViewController alloc]init] title:@"新闻" image:@"document" selectImage:@"document"];
+    [self setupChildVc:[[ForumViewController alloc] init] title:@"论坛" image:@"processor" selectImage:@"processor"];
+    [self setupChildVc:[[CaseViewController alloc] init] title:@"经典" image:@"fire" selectImage:@"fire"];
+    [self setupChildVc:[[SettingsViewController alloc]init] title:@"设置" image:@"gear" selectImage:@"gear"];
     
 
 }
@@ -45,6 +47,7 @@
     //设置文字和图片
     vc.navigationItem.title = title;
     vc.tabBarItem.title = title;
+    
     vc.tabBarItem.selectedImage = [UIImage imageNamed:selectImage];
     vc.tabBarItem.image = [UIImage imageNamed:image];
     
