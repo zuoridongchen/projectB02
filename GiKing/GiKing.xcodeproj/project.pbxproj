@@ -11,11 +11,11 @@
 		E64697A51D0EB4DB0084FE77 /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = E64697A41D0EB4DB0084FE77 /* sun.png */; };
 		E64697A71D0EB5DC0084FE77 /* id-card.png in Resources */ = {isa = PBXBuildFile; fileRef = E64697A61D0EB5DC0084FE77 /* id-card.png */; };
 		E64697A91D0EB6A60084FE77 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E64697A81D0EB6A60084FE77 /* 1.png */; };
-		E64697AD1D0EB74A0084FE77 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = E64697AC1D0EB74A0084FE77 /* 4.png */; };
 		E64697AF1D0EB7A00084FE77 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E64697AE1D0EB79F0084FE77 /* 2.png */; };
 		E64697B11D0EB80E0084FE77 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = E64697B01D0EB80E0084FE77 /* 3.png */; };
 		E64697B31D0F8F2F0084FE77 /* moon.png in Resources */ = {isa = PBXBuildFile; fileRef = E64697B21D0F8F2F0084FE77 /* moon.png */; };
 		E64697B51D0F92870084FE77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E64697B41D0F92870084FE77 /* Assets.xcassets */; };
+		E64697B71D0FB1E30084FE77 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = E64697B61D0FB1E30084FE77 /* 4.png */; };
 		E666838C1D0E46830075428C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E666838B1D0E46830075428C /* main.m */; };
 		E666839A1D0E46830075428C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E66683981D0E46830075428C /* LaunchScreen.storyboard */; };
 		E66683D51D0E65F80075428C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E66683BE1D0E65F80075428C /* AppDelegate.m */; };
@@ -24,6 +24,7 @@
 		E66683DE1D0E67030075428C /* ForumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E66683DD1D0E67030075428C /* ForumViewController.m */; };
 		E66683E11D0E67180075428C /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E66683E01D0E67180075428C /* NewsViewController.m */; };
 		E66683E41D0E67310075428C /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E66683E31D0E67310075428C /* SettingsViewController.m */; };
+		E6E233201D0FE85A00E3879D /* OpinionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E2331F1D0FE85A00E3879D /* OpinionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,11 +34,11 @@
 		E64697A41D0EB4DB0084FE77 /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
 		E64697A61D0EB5DC0084FE77 /* id-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "id-card.png"; path = "../id-card.png"; sourceTree = "<group>"; };
 		E64697A81D0EB6A60084FE77 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
-		E64697AC1D0EB74A0084FE77 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
 		E64697AE1D0EB79F0084FE77 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		E64697B01D0EB80E0084FE77 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 		E64697B21D0F8F2F0084FE77 /* moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moon.png; sourceTree = "<group>"; };
 		E64697B41D0F92870084FE77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E64697B61D0FB1E30084FE77 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
 		E66683871D0E46830075428C /* GiKing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiKing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E666838B1D0E46830075428C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E66683991D0E46830075428C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +55,8 @@
 		E66683E01D0E67180075428C /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
 		E66683E21D0E67310075428C /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		E66683E31D0E67310075428C /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		E6E2331E1D0FE85A00E3879D /* OpinionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpinionViewController.h; sourceTree = "<group>"; };
+		E6E2331F1D0FE85A00E3879D /* OpinionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpinionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +88,7 @@
 				E64697A81D0EB6A60084FE77 /* 1.png */,
 				E64697AE1D0EB79F0084FE77 /* 2.png */,
 				E64697B01D0EB80E0084FE77 /* 3.png */,
-				E64697AC1D0EB74A0084FE77 /* 4.png */,
+				E64697B61D0FB1E30084FE77 /* 4.png */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -321,6 +324,8 @@
 			children = (
 				E66683E21D0E67310075428C /* SettingsViewController.h */,
 				E66683E31D0E67310075428C /* SettingsViewController.m */,
+				E6E2331E1D0FE85A00E3879D /* OpinionViewController.h */,
+				E6E2331F1D0FE85A00E3879D /* OpinionViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -405,8 +410,8 @@
 				E64697A51D0EB4DB0084FE77 /* sun.png in Resources */,
 				E64697B11D0EB80E0084FE77 /* 3.png in Resources */,
 				E64697B31D0F8F2F0084FE77 /* moon.png in Resources */,
+				E64697B71D0FB1E30084FE77 /* 4.png in Resources */,
 				E64697A91D0EB6A60084FE77 /* 1.png in Resources */,
-				E64697AD1D0EB74A0084FE77 /* 4.png in Resources */,
 				E64697A71D0EB5DC0084FE77 /* id-card.png in Resources */,
 				E666839A1D0E46830075428C /* LaunchScreen.storyboard in Resources */,
 				E64697B51D0F92870084FE77 /* Assets.xcassets in Resources */,
@@ -474,6 +479,7 @@
 				E66683E41D0E67310075428C /* SettingsViewController.m in Sources */,
 				E66683D81D0E66A70075428C /* BarViewController.m in Sources */,
 				E66683DE1D0E67030075428C /* ForumViewController.m in Sources */,
+				E6E233201D0FE85A00E3879D /* OpinionViewController.m in Sources */,
 				E666838C1D0E46830075428C /* main.m in Sources */,
 				E66683E11D0E67180075428C /* NewsViewController.m in Sources */,
 			);

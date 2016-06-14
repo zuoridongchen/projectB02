@@ -1,10 +1,31 @@
 PODS:
+  - DKNightVersion (2.3.0):
+    - DKNightVersion/Core (= 2.3.0)
+    - DKNightVersion/CoreAnimation (= 2.3.0)
+    - DKNightVersion/UIKit (= 2.3.0)
+  - DKNightVersion/Core (2.3.0):
+    - DKNightVersion/Core/DeallocBlockExecutor (= 2.3.0)
+    - DKNightVersion/Core/extobjc (= 2.3.0)
+  - DKNightVersion/Core/DeallocBlockExecutor (2.3.0)
+  - DKNightVersion/Core/extobjc (2.3.0)
+  - DKNightVersion/CoreAnimation (2.3.0):
+    - DKNightVersion/Core
+  - DKNightVersion/UIKit (2.3.0):
+    - DKNightVersion/Core
   - Masonry (1.0.1)
+  - MBProgressHUD (0.9.2)
+  - skpsmtpmessage (0.0.1)
 
 DEPENDENCIES:
+  - DKNightVersion
   - Masonry
+  - MBProgressHUD
+  - skpsmtpmessage
 
 SPEC CHECKSUMS:
+  DKNightVersion: 459438cbfd14edb9e41a777ff14b18e5661b9269
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  skpsmtpmessage: f6e913380c784dd8d4a9f83c8790a302445a5e05
 
 COCOAPODS: 0.39.0
