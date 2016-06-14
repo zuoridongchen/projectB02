@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="138" id="KGk-i7-Jjw" customClass="NewsTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="138"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="137.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="02.png" translatesAutoresizingMaskIntoConstraints="NO" id="6uJ-d1-Ce7">
+                        <rect key="frame" x="8" y="8" width="121" height="125"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="121" id="EMT-lE-HHy"/>
+                            <constraint firstAttribute="height" constant="125" id="atF-Ot-Srv"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6月7日" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nEy-Mi-huC">
+                        <rect key="frame" x="149" y="96" width="50" height="33.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="1l8-Eu-hMe"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sKu-uC-tFT">
+                        <rect key="frame" x="219" y="96" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="Pp7-ix-t0I"/>
+                            <constraint firstAttribute="width" constant="30" id="vNU-4O-rU5"/>
+                        </constraints>
+                        <state key="normal" title="Button" image="button-record.png"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sws-4a-7e6">
+                        <rect key="frame" x="319" y="96" width="30" height="29.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="5WX-vH-qkG"/>
+                            <constraint firstAttribute="width" constant="30" id="ZJ4-uM-3Zx"/>
+                        </constraints>
+                        <state key="normal" title="Button" image="thumb-up.png"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="667" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Isv-G1-BLV">
+                        <rect key="frame" x="254" y="96" width="45" height="33.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="45" id="hrv-Tp-BWr"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1121" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H7o-er-iff">
+                        <rect key="frame" x="354" y="96" width="45" height="33.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="45" id="MEP-aq-Ty7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="广东搭建创业创新金融支持体系" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FFf-Qd-2eO">
+                        <rect key="frame" x="149" y="8" width="257" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="D18-mr-oWY"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="6uJ-d1-Ce7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="0dS-63-QXh"/>
+                    <constraint firstItem="nEy-Mi-huC" firstAttribute="top" secondItem="FFf-Qd-2eO" secondAttribute="bottom" constant="8" id="0us-sW-6DN"/>
+                    <constraint firstAttribute="bottom" secondItem="nEy-Mi-huC" secondAttribute="bottom" constant="8" id="1TG-XY-BEh"/>
+                    <constraint firstItem="H7o-er-iff" firstAttribute="top" secondItem="FFf-Qd-2eO" secondAttribute="bottom" constant="8" id="7Ag-m2-S6L"/>
+                    <constraint firstItem="sKu-uC-tFT" firstAttribute="top" secondItem="FFf-Qd-2eO" secondAttribute="bottom" constant="8" id="7Wh-8q-lf4"/>
+                    <constraint firstAttribute="bottom" secondItem="Isv-G1-BLV" secondAttribute="bottom" constant="8" id="8OA-LL-4MT"/>
+                    <constraint firstItem="FFf-Qd-2eO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="9Kr-Ep-kdX"/>
+                    <constraint firstItem="Sws-4a-7e6" firstAttribute="leading" secondItem="Isv-G1-BLV" secondAttribute="trailing" constant="20" id="DZm-sW-cxT"/>
+                    <constraint firstItem="Sws-4a-7e6" firstAttribute="top" secondItem="FFf-Qd-2eO" secondAttribute="bottom" constant="8" id="H2S-Oo-U00"/>
+                    <constraint firstItem="Isv-G1-BLV" firstAttribute="leading" secondItem="sKu-uC-tFT" secondAttribute="trailing" constant="5" id="Kss-4g-C98"/>
+                    <constraint firstAttribute="bottom" secondItem="H7o-er-iff" secondAttribute="bottom" constant="8" id="LNS-4s-nMn"/>
+                    <constraint firstItem="FFf-Qd-2eO" firstAttribute="leading" secondItem="6uJ-d1-Ce7" secondAttribute="trailing" constant="20" id="MaD-lY-4tF"/>
+                    <constraint firstItem="nEy-Mi-huC" firstAttribute="leading" secondItem="6uJ-d1-Ce7" secondAttribute="trailing" constant="20" id="Rjc-Ux-UyX"/>
+                    <constraint firstItem="6uJ-d1-Ce7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="WXM-7r-rbl"/>
+                    <constraint firstItem="sKu-uC-tFT" firstAttribute="leading" secondItem="nEy-Mi-huC" secondAttribute="trailing" constant="20" id="XUR-03-4r1"/>
+                    <constraint firstItem="H7o-er-iff" firstAttribute="leading" secondItem="Sws-4a-7e6" secondAttribute="trailing" constant="5" id="lUC-Yr-UD3"/>
+                    <constraint firstAttribute="trailing" secondItem="FFf-Qd-2eO" secondAttribute="trailing" constant="8" id="uDn-rE-EwZ"/>
+                    <constraint firstItem="Isv-G1-BLV" firstAttribute="top" secondItem="FFf-Qd-2eO" secondAttribute="bottom" constant="8" id="ulx-5S-99h"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="270" y="318"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="02.png" width="408" height="624"/>
+        <image name="button-record.png" width="30" height="30"/>
+        <image name="thumb-up.png" width="30" height="30"/>
+    </resources>
+</document>
